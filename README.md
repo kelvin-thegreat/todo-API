@@ -6,11 +6,11 @@ It also includes basic HTTP authentication to secure certain endpoints.
 ## Overview of the functionalities and features
 
 # API Endpoints
---GET /todo/api/v1.0/tasks/<int:task_id>: Retrieves a specific task by its ID.
---POST /todo/api/v1.0/tasks: Creates a new task.
---PUT /todo/api/v1.0/tasks/<int:task_id>: Updates a specific task by its ID.
---DELETE /todo/api/v1.0/tasks/<int:task_id>: Deletes a specific task by its ID.
---GET /todo/api/v1.0/tasks: Retrieves a list of all tasks
+1. GET /todo/api/v1.0/tasks/<int:task_id>: Retrieves a specific task by its ID.
+2. POST /todo/api/v1.0/tasks: Creates a new task.
+3. PUT /todo/api/v1.0/tasks/<int:task_id>: Updates a specific task by its ID.
+4. DELETE /todo/api/v1.0/tasks/<int:task_id>: Deletes a specific task by its ID.
+5. GET /todo/api/v1.0/tasks: Retrieves a list of all tasks
 
 # Error Handling:
 If a task with a specific ID is not found, it returns a 404 Not Found error.
